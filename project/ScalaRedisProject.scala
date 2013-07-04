@@ -44,7 +44,7 @@ object ScalaRedisProject extends Build
           "log4j"             %  "log4j"                   % "1.2.16"     % "provided",
           "junit"             %  "junit"                   % "4.8.1"      % "test",
           "org.scalatest"     %  ("scalatest_" + v)          % "2.0.M4"      % "test")
-    }   
+    })   
    
 }
 
